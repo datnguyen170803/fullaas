@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06-PS23047-Nguyễn Hữu Đạt</title>
+    <link rel="stylesheet" href="dangki.css">
+</head>
+<body>
+    <form action="Register.php" method="post" enctype="multipart/form-data">
+    <div class="hoten">
+        HỌ VÀ TÊN:<br>
+        <input name="id" type="text"><br>
+    </div>
+
+    <div class="gt">
+        <label for="">GIỚI TÍNH: </label>
+        <label for="Nam"><input type="radio" name="Gt" id="Nam" >Nam</label>
+        <label for="Nu"><input type="radio" name="Gt" id="Nu" >Nữ</label>
+    </div>
+    
+    <div>
+        <label for="">HÌNH ẢNH: </label>
+        <button type="File">Choose File</button>
+        <label for="">No file chosen</label>
+    </div>
+
+    <div class="quoctich">
+        <label for="" >QUỐC TỊCH</label><br>
+        <select name="" id="" multiple="4">
+            <option value="">United States</option>
+            <option value="">Vietnamese</option>
+            <option value="">Korean</option>
+            <option value="">Chinese</option>
+        </select>
+    </div>
+    <div class="sothich">
+        SỞ THÍCH: <br>
+            <label for="TT"><input name="hobby" type="checkbox" id="TT" >THỂ THAO</label>
+            <label for="DL"><input name="hobby" type="checkbox" id="DL" >DU LỊCH</label>
+            <label for="AN"><input name="hobby" type="checkbox" id="AN" >ÂM NHẠC</label>
+            <label for="AT"><input name="hobby" type="checkbox" id="AT" >ẨM THỰC</label> 
+    </div>
+
+    <div class="ghichu">
+        <label for="">GHI CHÚ: </label><br>
+        <textarea name="" id="" cols="40" rows="5"></textarea>
+    </div>
+    <hr>
+    <div class="dangnhap">
+        <button type="Choose File">Đăng ký</button>
+        <button type="Choose File">Nhập lại</button>
+    </div>
+    </form>
+</body>
+</html>

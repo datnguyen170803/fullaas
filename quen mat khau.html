@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06-PS23047-Nguyễn Hữu Đạt</title>
+    <link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+    <form action="">
+        <div class="form-group">
+            <label for="" class="form-grouplabel">HỌ VÀ TÊN</label><br>
+        <input class="form-control" type="text" tabindex="1">
+        </div>
+        
+        <div class="form-group">
+            <fieldset class="form-control">
+                <legend>Giới tính</legend>
+                <label for="Nam" class="form-grouplabel"><input  type="radio" name="gt" id="Nam">Nam</label>
+                <label for="Nu" class="form-grouplabel"><input  type="radio" name="gt" id="Nu">Nữ</label>
+            </fieldset>
+        </div>
+
+        <div class="form-group">
+            <label for="" class="form-grouplabel">NGÀY SINH</label><br>
+            <input class="form-control" type="date">
+        </div>
+
+      
+        
+
+        <div class="form-group">
+            <label for="" class="form-grouplabel">NGHỀ NGHIỆP</label><br>
+            <input class="form-control" list="browsers" tabindex="">
+            <datalist id="browsers">
+                <option value="GIÁO VIÊN"></option>
+                <option value="LẬP TRÌNH VIÊN"></option>
+                <option value="BÁC SĨ"></option>
+                <option value="KĨ SƯ"></option>
+                <option value="CA SĨ"></option>
+            </datalist> 
+        </div>
+
+        <div class="form-group">
+            <fieldset class="form-control">
+                <legend>Sở thích</legend>
+                <label for="TT" class="form-grouplabel"><input  type="checkbox" name="gt" id="TT">THỂ THAO</label>
+                <label for="DL" class="form-grouplabel"><input  type="checkbox" name="gt" id="DL">DU LỊCH</label>
+                <label for="AN" class="form-grouplabel"><input  type="checkbox" name="gt" id="AN">ÂM NHẠC</label>
+                <label for="AT" class="form-grouplabel"><input  type="checkbox" name="gt" id="AT">ẨM THỰC</label>
+            </fieldset>
+        </div>
+
+        <div class="form-group">
+            <label for="" class="form-grouplabel">GHI CHÚ</label><br>
+            <textarea class="form-control" name="" id="" tabindex="2"></textarea>
+        </div>
+        <hr>
+
+        <div class="form-group">
+            <button class="form-button" tabindex="3">Gửi</button>
+            <button class="form-button" tabindex="4">Nhập lại</button>
+        </div>
+
+    </form>
+</body>
+</html>
